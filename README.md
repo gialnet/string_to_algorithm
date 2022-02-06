@@ -1,1 +1,1 @@
-# string_to_algoritthm
+# string_to_algorithm
