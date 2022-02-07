@@ -5,7 +5,6 @@
 int string_to_int(char *string, int *str_len);
 int create_check_sum(char *string, int check_sum, int str_len);
 
-// ./a.out -str 
 
 int main(int argc, char**argv) {
 
@@ -91,7 +90,6 @@ int create_check_sum(char *string, int check_sum, int str_len){
 	printf("%s\n", string);
 
 	t = (int*) malloc( str_len+1 * sizeof(int));
-	//string_tocheck =  (char *) malloc( (str_len + 1) * sizeof(char));
 
 	if (t ==NULL)// if empty array
 	{
@@ -128,7 +126,6 @@ int create_check_sum(char *string, int check_sum, int str_len){
 
 	printf("%s\n", string_tocheck);
     free(t);
-	//free(string_tocheck);
 
     return 1;
 }
