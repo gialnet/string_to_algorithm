@@ -6,8 +6,6 @@ int string_to_int(char *string, int *str_len);
 int create_check_sum(char *string, int check_sum, int str_len);
 
 // ./a.out -str 
-// s.SKoMOVINBdmnPVqSiUniuHgE
-// s.SKoMOVINB4&EBqSiUniuHgE
 
 int main(int argc, char**argv) {
 
